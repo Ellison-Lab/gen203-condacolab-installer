@@ -1,0 +1,27 @@
+
+name: gen203_condacolab
+version: 0.1.0
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+specs:
+  - python ==3.7  # Python MUST be version 3.7
+  - pip
+  - conda
+  #- mamba
+
+  # GEN203 dependencies
+  # -------------------------------------
+  - velvet
+  - mafft
+  - blast
+  - bowtie2
+  - samtools
+
+
+# do not edit below this line
+# ---------------------------
+installer_type: sh
